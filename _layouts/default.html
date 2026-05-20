@@ -5,7 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    </head>
+    <style>
+        /* 1. Stop links from turning bold on hover site-wide */
+        a:hover {
+          font-weight: normal !important;
+        }
+        
+        /* 2. Target lists in the main section (Publications) to be dark and underlined */
+        section li a {
+          color: #24292e !important;
+          text-decoration: underline !important;
+        }
+        
+        /* Optional: subtle color change when hovering over publication links */
+        section li a:hover {
+          color: #0070f3 !important; 
+        }
+      </style>    
+
+</head>
   <body>
     <div class="wrapper">
       <header>
