@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <style>
         /* 1. Stop links from turning bold on hover site-wide */
@@ -21,6 +22,12 @@
         section li a:hover {
           color: #0070f3 !important; 
         }
+
+        .sidebar-links a {
+            display: block;          /* Forces each link onto its own line */
+            margin-bottom: 6px;      /* Tweak this number to change spacing (e.g., 4px, 8px) */
+            font-size: 14px;         /* Keeps text sizing looking proportional */
+      }
       </style>    
 
 </head>
@@ -33,10 +40,13 @@
         
         <p>{{ site.description }}</p>
 
-        <p class="view"><a href="https://github.com/alhad-sethi">GitHub</a></p>
-        <p class="view"><a href="https://linkedin.com/in/alhad-sethi">LinkedIn Profile</a></p>
-        <p class="view"><a href="https://scholar.google.com/citations?user=FsFJ_0gAAAAJ&hl=en">Google Scholar</a></p>
-        <!-- <p class="view"><a href="{{ '/assets/pdf/cv.pdf' | relative_url }}">📄 Download CV</a></p> -->
+        <div class="sidebar-links">
+            <a href="https://github.com/alhad-sethi">GitHub</a>
+            <a href="https://linkedin.com/in/alhad-sethi">LinkedIn</a>
+            <a href="https://scholar.google.com/citations?user=FsFJ_0gAAAAJ&hl=en">Google Scholar</a>
+          </div>
+
+                <!-- <p class="view"><a href="{{ '/assets/pdf/cv.pdf' | relative_url }}">📄 Download CV</a></p> -->
       </header>
       
       <section>
