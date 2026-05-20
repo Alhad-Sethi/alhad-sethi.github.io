@@ -2,8 +2,6 @@
 layout: default
 ---
 
-![Alhad Sethi](pfp.jpeg)
-
 # About Me
 I'm currently pursuing an M. Tech. (Research) at IISc, Bangalore, advised by [Prof. Shubhada Agrawal](https://sites.google.com/view/shubhada-agrawal/home?authuser=0). Before this, I did my undergrad at IIIT Delhi, where I was advised by [Prof. Manuj Mukherjee](https://sites.google.com/view/manuj-mukherjee/home). 
 
