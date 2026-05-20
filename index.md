@@ -12,4 +12,4 @@ I'm currently pursuing an M. Tech. (Research) at IISc, Bangalore, advised by [Pr
 
 
 ## Contact
-Email: alhadsethi@iisc.ac.in
+Email: [alhadsethi@iisc.ac.in](mailto:alhadsethi@iisc.ac.in)
