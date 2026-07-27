@@ -4,9 +4,9 @@ layout: default
 
 # About Me
 
-I'm currently pursuing an M. Tech. (Research) at [IISc, Bangalore](https://iisc.ac.in/), advised by [Prof. Shubhada Agrawal](https://sites.google.com/view/shubhada-agrawal/home?authuser=0). Before this, I did my undergrad at [IIIT Delhi](https://www.iiitd.ac.in/), where I was advised by [Prof. Manuj Mukherjee](https://sites.google.com/view/manuj-mukherjee/home) and received the Institute Silver Medal.
+I'm currently pursuing an M. Tech. (Research) at [IISc, Bangalore](https://iisc.ac.in/), where I'm fortunate to be advised by [Prof. Shubhada Agrawal](https://sites.google.com/view/shubhada-agrawal/home?authuser=0). Prior to this, I completed my undergrad at [IIIT Delhi](https://www.iiitd.ac.in/), where I was advised by the wonderful [Prof. Manuj Mukherjee](https://sites.google.com/view/manuj-mukherjee/home). 
 
-I enjoy solving problems in uncertain settings, and my current research focuses on bandit algorithms and sequential statistics. I also have a strong interest and experience in machine learning, statistics, and quantitative finance — including a stint as a QR Intern @ [Millennium](https://www.mlp.com/).
+I enjoy solving problems in uncertain settings, and my current research focuses on bandit algorithms and sequential statistics. I also have a strong interest and experience in machine learning theory, statistics, and quantitative finance — including a stint as a Quantitative Research Intern @ [Millennium](https://www.mlp.com/).
 
 I'm always up to discuss any of these topics, so feel free to reach out!
 
