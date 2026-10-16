@@ -1,61 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/style.css' | relative_url }}"
+    />
     <style>
-        /* 1. Stop links from turning bold on hover site-wide */
-        a:hover {
-          font-weight: normal !important;
-        }
-        
-        /* 2. Target lists in the main section (Publications) to be dark and underlined */
-        section li a {
-          color: #24292e !important;
-          text-decoration: underline !important;
-        }
-        
-        /* Optional: subtle color change when hovering over publication links */
-        section li a:hover {
-          color: #0070f3 !important; 
-        }
-
-        .sidebar-links a {
-            display: block;          /* Forces each link onto its own line */
-            margin-bottom: 6px;      /* Tweak this number to change spacing (e.g., 4px, 8px) */
-            font-size: 14px;         /* Keeps text sizing looking proportional */
+      /* 1. Stop links from turning bold on hover site-wide */
+      a:hover {
+        font-weight: normal !important;
       }
-      </style>    
 
-</head>
+      /* 2. Target lists in the main section (Publications) to be dark and underlined */
+      section li a {
+        color: #24292e !important;
+        text-decoration: underline !important;
+      }
+
+      /* Optional: subtle color change when hovering over publication links */
+      section li a:hover {
+        color: #0070f3 !important;
+      }
+
+      .sidebar-links a {
+        display: block; /* Forces each link onto its own line */
+        margin-bottom: 6px; /* Tweak this number to change spacing (e.g., 4px, 8px) */
+        font-size: 14px; /* Keeps text sizing looking proportional */
+      }
+    </style>
+  </head>
   <body>
     <div class="wrapper">
       <header>
-        <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Alhad Sethi" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; margin-bottom: 20px; border: 2px solid #e0e0e0;">
-        
+        <img
+          src="{{ '/assets/img/profile.jpg' | relative_url }}"
+          alt="Alhad Sethi"
+          style="
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 2px solid #e0e0e0;
+          "
+        />
+
         <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-        
+
         <p>{{ site.description }}</p>
 
         <div class="sidebar-links">
-            <a href="https://github.com/alhad-sethi">GitHub</a>
-            <a href="https://linkedin.com/in/alhad-sethi">LinkedIn</a>
-            <a href="https://scholar.google.com/citations?user=FsFJ_0gAAAAJ&hl=en">Google Scholar</a>
-            <a href="{{ '/assets/pdf/Resume_Alhad_May26.pdf' | relative_url }}">CV</a>
-          </div>
+          <a href="https://github.com/alhad-sethi">GitHub</a>
+          <a href="https://linkedin.com/in/alhad-sethi">LinkedIn</a>
+          <a href="https://scholar.google.com/citations?user=FsFJ_0gAAAAJ&hl=en"
+            >Google Scholar</a
+          >
+          <a
+            href="{{ '/assets/pdf/Resume_Alhad_October2026.pdf' | relative_url }}"
+            >CV</a
+          >
+        </div>
 
-                <!-- <p class="view"><a href="{{ '/assets/pdf/cv.pdf' | relative_url }}">📄 Download CV</a></p> -->
+        <!-- <p class="view"><a href="{{ '/assets/pdf/cv.pdf' | relative_url }}">📄 Download CV</a></p> -->
       </header>
-      
-      <section>
-        {{ content }}
-      </section>
-      
+
+      <section>{{ content }}</section>
+
       <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p>
+          <small
+            >Hosted on GitHub Pages &mdash; Theme by
+            <a href="https://github.com/orderedlist">orderedlist</a></small
+          >
+        </p>
       </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
