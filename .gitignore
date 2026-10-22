@@ -1,0 +1,21 @@
+# Private job-search tracker (don't publish via GitHub Pages)
+assets/quant-applications-tracker.md
+
+# macOS
+.DS_Store
+
+# Jekyll build output and caches
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Ruby / Bundler
+.bundle/
+vendor/
+Gemfile.lock
+
+# Editors
+.vscode/
+.idea/
+*.swp

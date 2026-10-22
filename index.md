@@ -4,11 +4,11 @@ layout: default
 
 # About Me
 
-I'm currently pursuing an M. Tech. (Research) at [IISc, Bangalore](https://iisc.ac.in/), advised by [Prof. Shubhada Agrawal](https://sites.google.com/view/shubhada-agrawal/home?authuser=0). At IISc, I am fortunate to be supported by the [Cisco Center for Networked Intelligence](https://cni.iisc.ac.in/) Fellowship. Before this, I did my undergrad at [IIIT Delhi](https://www.iiitd.ac.in/), where I was advised by [Prof. Manuj Mukherjee](https://sites.google.com/view/manuj-mukherjee/home) and received the Institute Silver Medal.
+I'm currently pursuing an M. Tech. (Research) at [IISc, Bangalore](https://iisc.ac.in/), where I'm advised by [Prof. Shubhada Agrawal](https://sites.google.com/view/shubhada-agrawal/home?authuser=0). At IISc, I am fortunate to be supported by the [Cisco Center for Networked Intelligence](https://cni.iisc.ac.in/) Fellowship. Prior to this, I did my undergrad at [IIIT Delhi](https://www.iiitd.ac.in/) in computer science and applied mathematics, where I was advised by the wonderful [Prof. Manuj Mukherjee](https://sites.google.com/view/manuj-mukherjee/home) and received the Institute Silver Medal.
 
-I enjoy solving problems in uncertain settings, and my current research focuses on bandit algorithms and sequential statistics. I also have a strong interest and experience in machine learning, statistics, and quantitative finance — including a stint as a QR Intern @ [Millennium](https://www.mlp.com/).
+I enjoy solving problems in uncertain and ill-defined settings. I'm largely interested in statistics and machine learning theory. My current research focuses on bandit algorithms and sequential statistics. Prior to this, I worked on characterizing the performance of generic machine learning algorithms trained on dependent data. Outside of this, I also have a strong interest and experience in quantitative finance — including a stint as a quantitative research intern @ [Millennium](https://www.mlp.com/).
 
-I'm always up to discuss any of these topics, so feel free to reach out!
+I'm always up to discuss any of the above interests, so feel free to reach out!
 
 ## Publications
 
